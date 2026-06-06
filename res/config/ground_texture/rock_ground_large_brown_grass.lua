@@ -1,0 +1,11 @@
+local tu = require "texutil"
+
+function data()
+return {
+	texture = tu.makeTextureLinearNearest("res/textures/terrain/material/rock_ground.tga", true, false,false),
+	texSize = { 10.0, 10.0 },
+	materialIndexMap = {
+		[255] = "grass_brown.lua",
+	},
+}
+end

@@ -1,0 +1,13 @@
+# Compiled binary files
+*.mo
+*.sav
+
+# Binary archives
+*.zip
+
+# Thumbnails
+*.tga
+
+# OS files
+.DS_Store
+Thumbs.db
